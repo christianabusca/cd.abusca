@@ -1,0 +1,107 @@
+@import url('https://fonts.cdnfonts.com/css/maharlika');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    background-color: #252721;
+    transition: all 0.2;
+}
+
+.nav-link:hover{
+    color: white !important;
+}
+
+.imahe {
+    border-radius: 50px !important;
+}
+
+.cardo {
+    border-radius: 25px !important;
+    background-color: #252721 !important;
+}
+.resume{
+    border-radius: 25px !important;
+    
+    background-color: #384129 !important;
+    color: white !important;
+    border-color: #5c452c !important;
+}
+
+.resume:hover {
+    transition: all 0.2s !important;
+    background-color: #ebdede !important;
+    color: black !important;
+}
+
+.orgs {
+    scale: 1; opacity: 0;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: entry 100px;
+}
+
+@keyframes fade-in {
+    to {scale:1; opacity:1;}
+}
+
+.custom-card-title {
+    font-size: 1rem; /* Adjust the base font size as needed */
+  }
+  
+  @media (max-width: 1200px) {
+    .custom-card-title {
+      font-size: 0.9rem; /* Adjust for smaller screens */
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .custom-card-title {
+      font-size: 0.8rem; /* Adjust for smaller screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .custom-card-title {
+      font-size: 0.7rem; /* Adjust for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .custom-card-title {
+      font-size: 0.6rem; /* Adjust for smaller screens */
+    }
+  }
+  
+  .org-text {
+    font-size: 1rem; /* Adjust the base font size as needed */
+  }
+  
+  @media (max-width: 1200px) {
+    .org-text {
+      font-size: 0.9rem; /* Adjust for smaller screens */
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .org-text {
+      font-size: 0.8rem; /* Adjust for smaller screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .org-text {
+      font-size: 0.7rem; /* Adjust for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .org-text {
+      font-size: 0.6rem; /* Adjust for smaller screens */
+    }
+  }
+  
